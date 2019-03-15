@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <resources>
-    <string name="app_name">QTUM</string>
+    <string name="app_name">ALTHASH</string>
     <string name="create_new">新建</string>
     <string name="import_wallet">导入钱包</string>
     <string name="create_the_first_one_or_restore_n_the_previous_wallet_key">新建一个钱包 \n 或者导入已有钱包</string>
@@ -8,10 +8,10 @@
     <string name="wallet_name">钱包名称</string>
     <string name="my_wallet">我的钱包</string>
     <string name="public_key">公钥</string>
-    <string name="qtum">QTUM</string>
+    <string name="althash">HTML</string>
     <string name="receive">接收</string>
     <string name="send">发送</string>
-    <string name="org.qtum.wallet.activity">活动</string>
+    <string name="org.althash.wallet.activity">活动</string>
     <string name="receiver_s_address">接收人地址</string>
     <string name="amount">数量</string>
     <string name="available_balance">"可用余额: "</string>
@@ -28,7 +28,7 @@
     <string name="received">已接收</string>
     <string name="sent">发送</string>
     <string name="received_time">接收时间</string>
-    <string name="transactionQTUM">交易</string>
+    <string name="transactionALTHASH">交易</string>
     <string name="from">从</string>
     <string name="to">到</string>
     <string name="import_button">导入</string>
@@ -73,7 +73,7 @@
     <string name="templates">模板</string>
     <string name="step_1_2">第1步（共2步）</string>
     <string name="step_2_2">第2步（共2步）</string>
-    <string name="qstore">Qstore商店</string>
+    <string name="qstore">Hstore商店</string>
     <string name="search_by_name">通过名字搜索</string>
     <string name="search_by_tag">通过Hashtag搜索</string>
     <string name="view_details">查看详情</string>
@@ -118,7 +118,7 @@
     <string name="enable_touch_id">启用touch id</string>
     <string name="error">错误</string>
     <string name="login">登录</string>
-    <string name="login_to_qtum_using_touch_id">使用Touch ID登录QTUM</string>
+    <string name="login_to_althash_using_touch_id">使用Touch ID登录ALTHASH</string>
     <string name="no_internet_connection">无网络连接</string>
     <string name="not_now">暂不启用</string>
     <string name="payment_completed_successfully">成功完成支付</string>
@@ -138,7 +138,7 @@
     <string name="smart_contract_parameters">智能合约参数</string>
     <string name="switch_theme">切换应用主题</string>
     <string name="confirmation">确认…</string>
-    <string name="qtum_address">QTUM地址</string>
+    <string name="althash_address">HTMLCOIN地址</string>
     <string name="not_confirmed_yet">还未确认…</string>
     <string name="confirmed">已确认</string>
     <string name="preview">预览</string>
@@ -153,7 +153,7 @@
     <string name="contract_details">合约详情</string>
     <string name="invalid_token_address">Token地址不正确</string>
     <string name="address_list">地址列表</string>
-    <string name="abi_doesnt_match_qrc20_standard">ABI不符合QRC20标准</string>
+    <string name="abi_doesnt_match_hrc20_standard">ABI不符合HRC20标准</string>
     <string name="token_was_added_to_your_wallet">Token已加入到钱包</string>
     <string name="token_with_same_address_already_exists">已存在相同地址的Token</string>
     <string name="transfer">转移</string>
@@ -171,62 +171,17 @@
 
     <!--FONT PATHS-->
     <string name="sent_time">发送时间</string>
-    <string name="invalid_qtum_address">不合法的QTUM地址</string>
+    <string name="invalid_althash_address">不合法的HTMLCOIN地址</string>
     <string name="invalid_qr_code">无效的二维码格式</string>
-    <string name="_2017_qtum_n_skynet_testnet_version">"© 2017 QTUM \n "</string>
+    <string name="_2017_althash_n_skynet_testnet_version">"The Htmlcoin Foundation \n "</string>
     <string name="functions">函数</string>
     <string name="wallet_backup">钱包备份</string>
     <string name="news_placeholder">请关注我们的社交媒体账号获取更多最新动态</string>
-    <string name="news_placeholder_link">https://medium.com/@Qtum/</string>
+    <string name="news_placeholder_link">https://medium.com/althash/</string>
 
     <string name="insufficient_fee_lease_use_minimum_of">交易费不足。请使用至少</string>
 
     <string name="no_transaction_available_yet">当前没有有效交易</string>
-    <string name="unsubscribe">取消订阅</string>
-    <string name="contract_was_deleted_by_its_author_and_is_no_longer_available_you_can_unsubscribe_to_remove_it_from_your_wallet">合约已被它的作者删除，已不再可用，你可以在你的钱包中取消订阅</string>
-    <string name="change_contract_name">更改合约名称</string>
-    <string name="change">更改</string>
-    <string name="text">文本</string>
-    <string name="number">数字</string>
-    <string name="hex">十六进制</string>
-    <string name="data">数据</string>
-    <string name="sent_contract">发送的合约</string>
-    <string name="received_contract">收到的合约</string>
-    <string name="getting_info">获取信息中</string>
-    <string name="topics">主题</string>
-    <string name="event_log">Event Log</string>
-    <string name="address">地址</string>
-    <string name="overview">概要</string>
-    <string name="repeat_passphrase">验证助记词</string>
-    <string name="please_note_that_you_won_t_be_able_to_restore_your_wallet_without_passphrase_and_all_funds_can_be_lost">请注意你没法在没有助记词的情况下恢复钱包，所有钱包中的资产都会丢失</string>
-    <string name="the_passphrase_is_not_correct_please_click_quot_reset_all_quot_to_clear_the_field_and_try_again">助记词不正确，请点击“重置所有”来清除输入框并重试</string>
-    <string name="reset_all">重置所有</string>
-    <string name="please_put_the_words_from_passphrase_into_correct_order">请按正确顺序把助记词填入下面</string>
-    <string name="purchase_date">付款时间</string>
-    <string name="name">名字</string>
-    <string name="contract_name_">合约名字</string>
-    <string name="contract_address_">合约地址</string>
-    <string name="default_address">默认地址</string>
-    <string name="choose_from_library">从库中选择</string>
-    <string name="query_result">查询结果</string>
-    <string name="query">查询</string>
-    <string name="swipe_left_to_unsubscribe_or_delete_contract">向左滑来取消订阅或删除合约</string>
-    <string name="amount_too_big">数量过大</string>
-    <string name="you_are_about_to_exit_your_account_all_account_data_will_be_erased_from_the_device_please_make_sure_you_have_saved_backups_of_your_passphrase_and_required_contracts">你将要退出钱包，所有的账户资料将会从这台设备上清除。请确认你已经保存好了助记词的备份以及需要的合约</string>
-    <string name="warning">警告</string>
-    <string name="minutes">分钟后重试</string>
-    <string name="sorry_please_try_again_in">对不起，请在</string>
-    <string name="receive_version_error">获取版本失败</string>
-    <string name="edit">编辑</string>
-    <string name="close">关闭</string>
-    <string name="no_contracts_found">未找到合约</string>
-    <string name="no_tokens_found">未找到Token</string>
-    <string name="invalid_fee">不正确的手续费</string>
-    <string name="_fee">手续费</string>
-    <string name="token_unsupported">不支持</string>
-    <string name="token_unsupported_reason">对不起，这个代币超出了128位小数位的限制，所以不能被QTUM应用支持</string>
-    <string name="your_balance_was_last_updated_at">你的余额最后更新于</string>
-    <string name="internal_transaction">内部交易</string>
 
 
 </resources>

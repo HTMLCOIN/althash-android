@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "374533092695",
+    "firebase_url": "https://orgalthashwallet.firebaseio.com",
+    "project_id": "orgalthashwallet",
+    "storage_bucket": "orgalthashwallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374533092695:android:613740ca4dddf3c6",
+        "android_client_info": {
+          "package_name": "org.althash.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374533092695-8pft1r9jlnv4huvompgc2b600vujpcrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5jTXzl5btsIlQI5D25wDdjFjQckXidg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

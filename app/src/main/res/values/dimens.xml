@@ -5,4 +5,5 @@
 
     <dimen name="button_text">16sp</dimen>
     <dimen name="toolbar_text_size">24sp</dimen>
+    <dimen name="max_news_item_height">144dp</dimen>
 </resources>
