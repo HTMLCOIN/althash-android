@@ -121,7 +121,7 @@
     <string name="contract_address">Contract Address</string>
     <string name="unconfirmed">Unconfirmed</string>
     <string name="watch_contract">Watch Contract</string>
-    <string name="watch_token">Watch Token</string>
+    <string name="watch_token">Lookup Token</string>
     <string name="restore_contracts">Restore Contracts</string>
     <string name="backup_contracts">Backup Contracts</string>
     <string name="select_back_up_file">Select backup file</string>
