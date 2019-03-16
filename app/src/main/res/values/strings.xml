@@ -3,7 +3,7 @@
 
     <string name="create_new">Create New</string>
     <string name="import_wallet">Import Wallet</string>
-    <string name="create_the_first_one_or_restore_n_the_previous_wallet_key">Create the first one or restore \n the previous wallet key.</string>
+    <string name="create_the_first_one_or_restore_n_the_previous_wallet_key">Create the first one or restore \n a previous wallet key.</string>
     <string name="you_don_t_have_a_wallet_yet">You don\'t have a wallet, yet.</string>
 
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
