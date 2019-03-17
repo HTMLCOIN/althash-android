@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ALTHASH</string>
+    <string name="app_name">AltHash</string>
     <string name="create_new">Wischen/Neu erstellen</string>
     <string name="import_wallet">Wallet importieren</string>
     <string name="create_the_first_one_or_restore_n_the_previous_wallet_key">Key erstellen oder vorherigen Wallet Key wieder herstellen</string>
