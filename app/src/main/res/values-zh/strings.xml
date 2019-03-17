@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <resources>
-    <string name="app_name">ALTHASH</string>
+    <string name="app_name">AltHash</string>
     <string name="create_new">新建</string>
     <string name="import_wallet">导入钱包</string>
     <string name="create_the_first_one_or_restore_n_the_previous_wallet_key">新建一个钱包 \n 或者导入已有钱包</string>
@@ -118,7 +118,7 @@
     <string name="enable_touch_id">启用touch id</string>
     <string name="error">错误</string>
     <string name="login">登录</string>
-    <string name="login_to_althash_using_touch_id">使用Touch ID登录ALTHASH</string>
+    <string name="login_to_althash_using_touch_id">使用Touch ID登录AltHash</string>
     <string name="no_internet_connection">无网络连接</string>
     <string name="not_now">暂不启用</string>
     <string name="payment_completed_successfully">成功完成支付</string>
