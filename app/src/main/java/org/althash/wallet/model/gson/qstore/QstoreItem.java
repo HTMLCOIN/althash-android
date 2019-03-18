@@ -33,8 +33,8 @@ public class QstoreItem {
                 return R.drawable.ic_supertoken;
             case "Smart Contract":
                 return R.drawable.ic_smart_contract;
-            case "Crowdsale":
-                return R.drawable.ic_crowdsale;
+//            case "Crowdsale":
+//                return R.drawable.ic_crowdsale;
             default:
                 return R.drawable.ic_smart_contract;
         }

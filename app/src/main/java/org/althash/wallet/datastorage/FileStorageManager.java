@@ -37,14 +37,14 @@ public class FileStorageManager {
     private static FileStorageManager _instance;
     private final static String TAG = "STORAGE MANAGER: ";
     private final static String prefMigrationBuildVersion = "migration_buid_version";
-    private final static String CROWDSALE = "Crowdsale";
+//    private final static String CROWDSALE = "Crowdsale";
     private final static String HRC20TOKENSTANDART = "HRC20TokenStandard";
     private final static String HUMANSTANDARDTOKEN = "HumanStandardToken";
     public final static String HUMANSTANDARDTOKENUUID = "human-standard-token-identifire";
     private final static String HRC20TOKENSTANDARTUUID = "hrc20-token-identifire";
-    private final static String CROWDSALEUUID = "crowdsale-identifire";
-    private static String[] STANDARD_CONTRACTS = {CROWDSALE, HUMANSTANDARDTOKEN, HRC20TOKENSTANDART};
-    private static String[] STANDARD_UUIDS = {CROWDSALEUUID, HUMANSTANDARDTOKENUUID, HRC20TOKENSTANDARTUUID};
+//    private final static String CROWDSALEUUID = "crowdsale-identifire";
+    private static String[] STANDARD_CONTRACTS = {HUMANSTANDARDTOKEN, HRC20TOKENSTANDART};
+    private static String[] STANDARD_UUIDS = {HUMANSTANDARDTOKENUUID, HRC20TOKENSTANDARTUUID};
     private HashMap<String, String> standardUUIDs;
     private static String abiContract = "abi-contract";
     private static String byteCodeContract = "bitecode-contract";
