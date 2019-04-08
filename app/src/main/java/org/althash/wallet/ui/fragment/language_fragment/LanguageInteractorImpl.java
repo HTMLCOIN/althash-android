@@ -15,18 +15,17 @@ class LanguageInteractorImpl implements LanguageInteractor {
     private Context mContext;
     private List<Pair<String, String>> mLanguagesList;
 
-    LanguageInteractorImpl(Context context) {
-        mContext = context;
         mLanguagesList = new ArrayList<>();
+    //    mLanguagesList.add(new Pair<>("ar", "Arabic"));
         mLanguagesList.add(new Pair<>("zh", "Chinese"));
-        mLanguagesList.add(new Pair<>("da", "Danish"));
+    //    mLanguagesList.add(new Pair<>("da", "Danish"));
         mLanguagesList.add(new Pair<>("us", "English"));
-        mLanguagesList.add(new Pair<>("fr", "French"));
-        mLanguagesList.add(new Pair<>("de", "German"));
+    //    mLanguagesList.add(new Pair<>("fr", "French"));
+    //    mLanguagesList.add(new Pair<>("de", "German"));
         mLanguagesList.add(new Pair<>("ko", "Korean"));
-        mLanguagesList.add(new Pair<>("pt", "Portuguese"));
-        mLanguagesList.add(new Pair<>("ru", "Russian"));
-        mLanguagesList.add(new Pair<>("es", "Spanish"));
+    //    mLanguagesList.add(new Pair<>("pt", "Portuguese"));
+    //    mLanguagesList.add(new Pair<>("ru", "Russian"));
+    //    mLanguagesList.add(new Pair<>("es", "Spanish"));
     }
 
     @Override
